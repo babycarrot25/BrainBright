@@ -30,23 +30,15 @@ public class Contactlist extends AppCompatActivity {
         Button btn = findViewById(R.id.addcontact_btn);
         TextView tv = findViewById(R.id.contactview);
 
-        ArrayList<String> numbers = new ArrayList<String>();
-        HashMap<String, String> contactlist = new HashMap<>();
+        Contact temp = new Contact();
+        ArrayList<Contact> = new ArrayList<>();
 
            // System.out.println(numbers);
 
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                numbers.add(nameinput.getText().toString());
-                String tmp = tv.getText().toString();
-                contactlist.put(nameinput.getText().toString(),numberinput.getText().toString());
-                List<String> keyList = new ArrayList<>(contactlist.keySet());
 
-                tv.setText(tmp+"\n hello");
-                //length method, access array list with index 
-
-                Log.e("Contactlist",keyList.toString());
             }
         });
 
