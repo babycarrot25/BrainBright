@@ -31,7 +31,7 @@ public class Contactlist extends AppCompatActivity {
         TextView tv = findViewById(R.id.contactview);
 
         Contact temp = new Contact();
-        ArrayList<Contact> = new ArrayList<>();
+        //ArrayList<Contact> = new ArrayList<>();
 
            // System.out.println(numbers);
 

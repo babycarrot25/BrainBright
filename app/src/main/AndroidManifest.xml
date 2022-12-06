@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BrainBright" >
 
-        <activity android:name=".Splash"
+        <activity android:name=".Survey"
             android:exported="true">
             <intent-filter>
                 <category android:name="android.intent.category.LAUNCHER"/>
@@ -47,6 +47,8 @@
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
             </intent-filter>
+
+
 
         </activity>
 
